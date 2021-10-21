@@ -1,18 +1,18 @@
 @import '../../ScssVars/Variables.scss';
 
-.News-wrapper {
+.newswrapper {
     width: 80%;
     margin: 2em auto 6em auto;
 }
 
-.Items-wrapper {
+.itemswrapper {
     margin-top: 2.5em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.Title {
+.title {
     font-size: 1.4em;
     color: $Background;
     font-family: $NewsFont;

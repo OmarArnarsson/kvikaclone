@@ -1,16 +1,16 @@
 import { Fragment, Key } from 'react';
-import './News.scss';
 import { mockdata } from '../../Data/Mockdata';
 import { Container } from '../Containers/Container';
+import styles from './News.module.scss';
 
 export const News = () => {
     return (
-        <div className="News-wrapper">
+        <div className={styles.newswrapper}>
             <div>
-                <h2 className="Title">Fréttir</h2>
+                <h2 className={styles.title}>Fréttir</h2>
             </div>
             <div>
-                <div className="Items-wrapper">
+                <div className={styles.itemswrapper}>
                     {<Fragment>
                         {
                             mockdata.map((newsitem: { id: Key | null | undefined; title: string; content: string; date: string;}) =>(
