@@ -1,6 +1,6 @@
-import { Fragment, Key } from 'react';
+import { Key } from 'react';
 import { mockdata } from '../../Data/Mockdata';
-import { Container } from '../Containers/Container';
+import { Container } from '../Containers/NewsContainer/Container';
 import styles from './News.module.scss';
 
 export const News = () => {
@@ -11,13 +11,11 @@ export const News = () => {
             </div>
             <div>
                 <div className={styles.itemswrapper}>
-                    {<Fragment>
                         {
-                            mockdata.map((newsitem: { id: Key | null | undefined; title: string; content: string; date: string;}) =>(
+                            mockdata.map((newsitem: { id: Key; title: string; content: string; date: string;}) =>(
                                 <Container key={newsitem.id} title={newsitem.title} content={newsitem.content} date={newsitem.date} />
                             ))
                         }
-                    </Fragment>}
                 </div>
             </div>
         </div>

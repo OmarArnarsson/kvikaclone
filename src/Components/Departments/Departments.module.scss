@@ -1,5 +1,61 @@
 @import '../../ScssVars/Variables.scss';
 
+.list {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 7.5em auto 0 auto;
+    justify-content: space-between;
+    //contain: content;
+}
+
+/*.smallchild {
+    width: 48%;
+    height: 9em;
+    border-width: 0.5em;
+    border-style: solid;
+    border-color: red;
+    margin-bottom: 1.5em;
+}*/
+
+.bigchild {
+    padding: 0.5em 1.5em 1.5em 1.5em;
+    width: 100%;
+    height: 9em;
+    //box-shadow: 0 0 3px $Background;
+    box-shadow: 1px 8px 40px rgb(0 0 0 / 15%);
+    margin-bottom: 1.5em;
+}
+
+.bigchildFocused {
+    padding: 0.5em 1.5em 1.5em 1.5em;
+    width: 100%;
+    height: 9em;
+    //box-shadow: 0 0 30px $Background;
+    box-shadow: 1px 8px 40px rgb(0 0 0 / 30%);
+    margin-bottom: 1.5em;
+
+    .title {
+        text-decoration: underline;
+    }
+}
+
+.title {
+    font-family: $NewsFont;
+    font-size: 1.2em;
+    color: $LightBrown;
+}
+
+.contentwrapper {
+    //text-wrap: wrap;
+}
+
+.content {
+    font-family: $NewsFont;
+    font-size: 1em;
+}
+
 .bigassqoute {
     min-height: 15em;
     margin-bottom: 7.5em;
