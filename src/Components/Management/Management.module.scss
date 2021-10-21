@@ -1,0 +1,48 @@
+@import '../../ScssVars/Variables.scss';
+
+.wrappers {
+    position: relative;
+    text-align: center;
+}
+
+.imgholder {
+    background-image: url('caption-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: left;
+    text-shadow: none;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    left: 4%;
+    top: 80%;
+    overflow: hidden;
+    color: $DefWhite;
+}
+
+.header {
+    font-family: $NewsFont;
+    text-align: left;
+    font-weight: bold;
+    font-size: 2em;
+    color: #fff;
+    padding-top: 0.2em;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.contentholder {
+    width: 100%;
+    padding: 1em;
+}
+
+.backgroundimg {
+    width: 100%;
+    max-height: 740px;
+    object-fit: cover;
+}
+
+.texti {
+    font-family: $NewsFont;
+    padding-top: 0.2em;
+}

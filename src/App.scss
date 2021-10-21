@@ -1,0 +1,23 @@
+@import '../src/ScssVars/Variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $MainFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  line-height: 28px;
+  font-size: 20px;
+
+  display:flex; 
+  flex-direction:column; 
+}
+
+div {
+  display: block;
+}
+

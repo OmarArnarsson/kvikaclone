@@ -1,0 +1,35 @@
+@import '../../ScssVars/Variables.scss';
+
+.bigassqoute {
+    min-height: 15em;
+    margin-bottom: 7.5em;
+    border-width: 10%;
+    position: relative;
+    text-align: center;
+}
+
+.upperchild {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    min-width: 10%;
+    min-height: 0.2em;
+    background-color: $LightBrown;
+}
+
+.lowerchild {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    min-width: 10%;
+    min-height: 0.2em;
+    background-color: $LightBrown;
+}
+
+.qoutetext {
+    font-size: 2em;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.2em;
+    padding-top: 3%;
+}
